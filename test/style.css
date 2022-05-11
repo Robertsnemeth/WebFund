@@ -1,0 +1,22 @@
+#container {
+    background-color: navy;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.link {
+    
+}
+h1 {
+    margin: 10px;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    font-size: 4ch;
+}
+body {
+    background-color: lightslategray;
+    
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+#container {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: "Poppins",sans-serif;
+    width: 600px;
+    height: 300px;
+    border: 2px solid lightslategray;
+    margin: 40px;
+    padding: 80px;
+    background: -webkit-linear-gradient(90deg, white 65%, rgb(31, 151, 157) 60%);
+}
+.icon {
+margin: 20px;
+}
+.map {
+    display: flex;
+    margin: 20px;
+}
+.info {
+    margin: 20px;
+
+}
+.gear {
+    margin: 20px;
+
+}
+.gear img, .map img {
+    width: 15px;
+}
+.icon img {
+    width: 125px;
+}
+h2 {
+    margin-left: 10px;
+}
