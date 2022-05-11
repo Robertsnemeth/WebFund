@@ -1,0 +1,46 @@
+* {
+    
+}
+#container {
+    background-color: bisque;
+    padding: 50px;
+    border: 10px inset grey;
+    font-family: 'Franklin Gothic Medium';
+    background-image: url(mountains.jpg);
+    background-position: top;
+}
+th {
+    font-style: bold;
+    font-size: 4ch;
+}
+#clubpic{
+    width: 100px;
+    height: 100px;
+    border: solid black;
+}
+#bobby {
+    width: 155px;
+    border: solid black;
+}
+#button input{
+    background-color: slategrey;
+    box-shadow: 4px black;
+}
+#button input:hover {
+    background-color: lightgrey;
+}
+h1 {
+    text-decoration: underline;
+}
+h3 {
+    text-decoration: underline;
+}
+#spotify {
+    width: 25px;
+}
+u {
+    font-size: 5ch;
+    font-style: oblique;
+    color: black;
+
+}

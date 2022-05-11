@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#search {
+    border: 2px cyan solid;
+    border-radius: 25px;
+    margin: 10px 40px;
+    margin-top: 40px;
+    color: cyan;
+    height: 20px;
+    width: 125px;
+    padding: 4px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+#submit {
+    margin: 10px 40px;
+    color: white;
+    background-color: cyan;
+    border-style: hidden;
+    border-radius: 50%;
+    padding: 4px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    font-size: larger;
+    font-style: bold;
+}
+
+#create {
+    border-style: solid;
+    border-color: black;
+    background-color: blue;
+    height: 20px;
+    width: 200px;
+    margin: 10px 40px;
+    padding: 4px;
+    box-shadow: 10px 5px 5px black;
+    text-align: center;
+    text-emphasis: bold;
+    color: white;
+    font-size: large;
+}
