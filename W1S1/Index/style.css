@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+}
+
+#cyan {
+    color: cyan;
+}
+
+h2 {
+    background-color: purple;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    background-color: steelblue;
+    font-weight: lighter;
+    text-align: right;
+}
