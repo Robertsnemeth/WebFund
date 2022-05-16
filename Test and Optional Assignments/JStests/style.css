@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    border: 1px solid black;
+    box-shadow: 2px black;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4ch;
+    border-radius: 10px;
+}
