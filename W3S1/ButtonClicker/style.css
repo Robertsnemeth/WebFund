@@ -44,7 +44,7 @@
 #page{
     display: flex;
     justify-content: space-between;
-    font-size: 3ch;
+    font-size: 2.5ch;
     width: 100%;
 }
 /* This is container for Ninja*/
@@ -57,6 +57,22 @@
 .ninj-btn {
     background-color: goldenrod;
     box-shadow: 5px 5px 5px black;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+}
+.ninja-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.ninja-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
 }
 /* This is container for Definition */
 .definition {
@@ -65,12 +81,13 @@
     margin-top: 20px;
     padding: 10px;
     flex-direction: column;
+    height: 50%;
+    align-items: center;
 }
 .second {
     display: flex;
-    justify-content: right;
-    margin-left: 20px;
 }
 .def-btn {
     background-color: green;
+    width: 50%;
 }
