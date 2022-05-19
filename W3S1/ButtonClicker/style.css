@@ -40,6 +40,9 @@
     width: 400px;
     font-size: 1.5rem;
 }
+nav h1 {
+    font-size: 4ch;
+}
 /* This is container for main page */
 #page{
     display: flex;
@@ -60,6 +63,8 @@
     height: 30px;
     width: 100px;
     padding: 5px;
+    font-size: 1.4;
+    font-weight: 800;
 }
 .ninja-1 {
     display: flex;
@@ -74,6 +79,9 @@
     flex-wrap: wrap;
     margin: 10px;
 }
+.italic {
+    font-style: italic;
+}
 /* This is container for Definition */
 .definition {
     border: 2px solid black;
@@ -83,11 +91,16 @@
     flex-direction: column;
     height: 50%;
     align-items: center;
+    justify-content: space-between;
 }
 .second {
     display: flex;
 }
 .def-btn {
     background-color: green;
-    width: 50%;
+    width: 35%;
+    font-size: 1.5ch;
+    box-shadow: 5px 5px 5px black;
+    font-weight: 900;
 }
+

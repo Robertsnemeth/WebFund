@@ -10,10 +10,11 @@
 </head>
 <body>
     <div id="container">
+        <!-- NAV -->
         <nav class="nav">
             <h1 class="nav-title">Dojonary</h1>
             <input type="text" class="search" value="Search">
-            <button class="nav-btn">Login</button>
+            <button class="nav-btn" onclick="login(this)">Login</button>
         </nav>
         <main id="page">
             <!-- NINJA'S -->
@@ -23,10 +24,10 @@
                     <section class="ninja-1">
                         <div class="sec-1">
                             <h2>ninja</h2>
-                            <p>noun</p>
+                            <p class="italic">noun</p>
                             <h3>Plural: ninjas</h3>
                             <br>
-                            <button class="ninj-btn">13 Likes</button>
+                            <button class="ninj-btn" onclick="alert('Ninja liked this')">13 Likes</button>
                         </div>
                     </section> 
                     <section class="ninja-2">
@@ -40,7 +41,7 @@
                     <section class="ninja-1">
                         <div class="sec-1">
                             <h2>ninja</h2>
-                            <p>noun</p>
+                            <p class="italic">noun</p>
                             <h3>Plural: ninjas</h3>
                             <br>
                             <button class="ninj-btn">37 Likes</button>
@@ -57,7 +58,7 @@
             <section class="second">
                 <div class="definition">
                     <h1>Dojonary is defined by YOU</h1>
-                    <button class="def-btn">Add Definition</button>
+                    <button class="def-btn" onclick="goneBtn(this)">Add Definition</button>
                 </div>
             </section>
         </main>
