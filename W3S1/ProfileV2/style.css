@@ -113,10 +113,12 @@ a:hover {
     border-radius: 5px;
 }
 .connection {
-    padding: 25px;
+    padding: 5px;
     font-size: 1.6rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 200px;
 }
 .your {
     padding: 25px;
@@ -174,13 +176,21 @@ footer {
 .connection img, .your img {
     height: 40px;
     border-radius: 50%;
-    margin: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .todd, .phil {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 130px;
     height: 130px;
+    width: 100%;
+}
+.toddpic, .philpic {
+    display: flex;
     cursor: pointer;
+}
+.todd p, phil p{
+    display: flex;
 }
