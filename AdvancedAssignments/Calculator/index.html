@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display"></div>
+            <div class="row">
+                <button onclick="press(this);">7</button>
+                <button onclick="press(this);">8</button>
+                <button onclick="press(this);">9</button>
+                <button class="operator" onclick="divide(this);">÷</button>
+            </div>
+            <div class="row">
+                <button onclick="press(this);">4</button>
+                <button onclick="press(this);">5</button>
+                <button onclick="press(this);">6</button>
+                <button class="operator" onclick="multiply(this);">×</button>
+            </div>
+            <div class="row">
+                <button onclick="press(this);">1</button>
+                <button onclick="press(this);">2</button>
+                <button onclick="press(this);">3</button>
+                <button class="operator" onclick="subtract(this);">−</button>
+            </div>
+            <div class="row">
+                <button onclick="clr(this);">C</button>
+                <button onclick="press(this);">0</button>
+                <button onclick="press('.');">.</button>
+                <button class="operator" onclick="add(this);">+</button>
+            </div>
+            <div class="row">
+                <button id="equals" onclick="calculate(this)">=
+            </div>
+    </div>
+        
+</body>
+</html>
