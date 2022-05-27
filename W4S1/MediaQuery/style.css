@@ -1,0 +1,35 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#buttons {
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn {
+    width: 10rem;
+    height: 10rem;
+    font-size: 2rem;
+}
+@media only screen and (max-width: 480px) {
+    .btn {
+        background-color: yellow;
+        display: block;
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 481px) {
+    .btn {
+        background-color: red;
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .btn {
+        background-color: blue;
+        width: 25%;
+    }
+}
