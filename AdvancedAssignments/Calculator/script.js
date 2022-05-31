@@ -1,17 +1,26 @@
-var displayDiv = document.querySelector("#display");
-// displayDiv.innerText = "Some new value";
+let displayDiv = document.querySelector("#display");
+// displayDiv.innerText = "Some new value"; 
 
-function press(num) {
+const press = (num) => {
     displayDiv.innerText+=num.innerText;
 }
 
-function clr() {
-    displayDiv.innerText = ""
+const clr = () => {
+    displayDiv.innerText = "";
 }
-function calculate() {
-    
+
+let input = press;
+let number1 = input
+let number2 = input+{add, subtract, multiply, divide}
+let operator = document.querySelector(".operator")
+
+let result;
+
+const calculate = () => {
+    if(operator.innerText == '+') {
+    result = number1 + number2;
+    }
 }
-function add(plus) {
-    addEventListener.click(".operator").
-return(displayDiv.innerHTML + displayDiv.innerHTML)
-}
+
+
+
