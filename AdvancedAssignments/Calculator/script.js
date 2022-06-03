@@ -1,25 +1,51 @@
-let displayDiv = document.querySelector("#display");
+const displayDiv = document.querySelector("#display");
 // displayDiv.innerText = "Some new value"; 
+let num1 = "";
+let num2 = "";
+let op = "";
 
-const press = (num) => {
-    displayDiv.innerText+=num.innerText;
+function press(num) {
+    let num1 = num;
+    displayDiv.innerHTML = num1;
+    // console.log(num)
 }
 
-const clr = () => {
-    displayDiv.innerText = "";
+function clr() {
+    num1 = "";
+    num2 = "";
+    op = "";
+    display.innerHTML = "0";
 }
 
-let input = press;
-let number1 = input
-let number2 = input+{add, subtract, multiply, divide}
-let operator = document.querySelector(".operator")
+function setOP(key) {
+    op = key;
+    num2 = num1;
+    num1 = "";
+    displayDiv.innerHTML = "0";
+}
 
-let result;
-
-const calculate = () => {
-    if(operator.innerText == '+') {
-    result = number1 + number2;
+function calculate() {
+    let a = parseFloat(num2);
+    let b = parseFloat(num1);
+    let res = 0;
+    switch(op) {
+        case "+":
+        res = a + b;
+        break;
+        case "-":
+        res = a - b;
+        break;
+        case "*":
+          res = a * b;
+        break;
+        case "/":
+        res = a / b;
+        break;
     }
+    num1 = res;
+    op = "";
+    displayDiv.innerHTML = res;
+    
 }
 
 

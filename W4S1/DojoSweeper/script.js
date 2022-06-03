@@ -10,12 +10,13 @@ var theDojo = [ [1, 0, 1, 1, 1, 0, 4, 0, 8, 0],
                 [9, 2, 2, 2, 0, 7, 0, 1, 1, 0] ];
 var dojoDiv = document.querySelector("#the-dojo");
     
-// Creates the rows of buttons for this game
+// // Creates the rows of buttons for this game
 function render(theDojo) {
 var result = "";
 for(var i=0; i<theDojo.length; i++) {
     for(var j=0; j<theDojo[i].length; j++) {
     result += `<button class="tatami" onclick="howMany(${i}, ${j}, this)"></button>`;
+    howMany(i, j, theDojo)
     }
 }
 return result;
@@ -25,18 +26,18 @@ return result;
 //        under the adjacent (all sides and corners) squares.
 //        Use i and j as the indexes to check theDojo.
 function howMany(i, j, element) {
-        element=theDojo;
-        for(var i=0; i<theDojo.length; i++) {
-            for(var j=0; j<theDojo[i].length; j++) {
-            if([i][1,2,3,4,5,6,7,8,9]===0) {
-                console.log({j});
-            } else {
-                console.log({j});
-            }
-        }
-// alert("TODO - determine how many ninjas are hiding in adjacent squares");
-}
+    
+    // console.log(element[i][j]);
+    
+    // for(var i=0;i<element.length;i++) {
+    //     for(var j=0;j<element[i].length;j++) {
+    //         console.log(element[i][j]);
+    //     }
+    // }
 }    
+
+    // alert("TODO - determine how many ninjas are hiding in adjacent squares");
+
 // BONUS CHALLENGES
 // 1. draw the number onto the button instead of alerting it
 // 2. at the start randomly place 10 ninjas into theDojo with at most 1 on each spot
