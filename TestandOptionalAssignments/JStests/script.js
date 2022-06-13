@@ -211,20 +211,31 @@
 // console.log(results)
 
 // complete the following function
-function flatten(arr2d) {
-    var flat = [];
-    for(var i=0;i<arr2d.length;i++) {
-            flat.push(arr2d[i][0]);
-            flat.push(arr2d[i][1]);
-            flat.push(arr2d[i][2]);
-    }
-    return flat;
-    }
+// function flatten(arr2d) {
+//     var flat = [];
+//     for(var i=0;i<arr2d.length;i++) {
+//             flat.push(arr2d[i][0]);
+//             flat.push(arr2d[i][1]);
+//             flat.push(arr2d[i][2]);
+//     }
+//     return flat;
+//     }
     
-var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
-console.log(result); // we expect to get back [2, 5, 8, 3, 6, 1, 5, 7, 7]
+// var result = flatten( [ [2, 5, 8], [3, 6, 1], [5, 7, 7] ] );
+// console.log(result); // we expect to get back [2, 5, 8, 3, 6, 1, 5, 7, 7]
 
+// function findAvg(arr) {
+//     var sum = 0;
+//     for(var i=0;i<arr.length;i++) {
+//     sum = sum+=arr[i];
+//     var avg = sum / arr.length;
+// }
+// return avg;
+// }
 
+// var results = findAvg([1,2,3,4,5,6,7]);
+// console.log(results);
 
+console.log("Hello World!")
 
 
